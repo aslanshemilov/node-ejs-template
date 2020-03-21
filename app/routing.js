@@ -4,6 +4,7 @@
 module.exports = function (app) {
     // home page route (http://localhost:8080)
     // load the index.ejs file
+    // create the homepage route at '/'
     app.get("/", (req, res) => {
         /*
       res.render("index", {
