@@ -1,0 +1,38 @@
+{
+  "name": "ejs-template",
+  "version": "1.0.0",
+  "description": "This project will use ejs template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch ./",
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslanshemilov/node-ejs-template.git"
+  },
+  "keywords": [
+    "node",
+    "ejs",
+    "template"
+  ],
+  "author": {
+    "name": "Aslan Shemilov",
+    "email": "aslanshemilov@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aslanshemilov/node-ejs-template/issues"
+  },
+  "homepage": "https://github.com/aslanshemilov/node-ejs-template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
